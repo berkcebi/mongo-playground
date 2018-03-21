@@ -1,0 +1,22 @@
+{
+  "name": "mongodb-playground",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "eslintConfig": {
+    "extends": "@zeplin/eslint-config/node"
+  },
+  "dependencies": {
+    "mongodb": "^3.0.4"
+  },
+  "devDependencies": {
+    "@zeplin/eslint-config": "^1.2.2",
+    "eslint": "^4.19.0"
+  }
+}
